@@ -1,3 +1,10 @@
 ```{r}
 whatever
 ```
+```{r}
+library(raster)
+library(here)
+jan<-raster(here("wc2.1_5m_tavg_01.tif"))
+# have a look at the raster layer jan
+plot(jan)
+```
