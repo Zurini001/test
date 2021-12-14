@@ -1,6 +1,7 @@
 ```{r}
 whatever
 ```
+<<<<<<< HEAD
 ```{r}
 library(raster)
 library(here)
@@ -8,3 +9,7 @@ jan<-raster(here("wc2.1_5m_tavg_01.tif"))
 # have a look at the raster layer jan
 plot(jan)
 ```
+=======
+
+soga
+>>>>>>> 3d512e05d3e243d904a8144d09e86586de31ed6e
